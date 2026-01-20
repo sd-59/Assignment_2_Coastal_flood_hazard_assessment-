@@ -1,0 +1,43 @@
+2026-01-20 08:16:10,905 - SFINCS_log_charleston - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.2.1).
+2026-01-20 08:17:12,472 - SFINCS_log_charleston - geodataframe - INFO - Reading  vector data from ..\model_domain\model_domain_charleston.geojson
+2026-01-20 08:21:00,940 - SFINCS_log_charleston - rasterdataset - INFO - Reading  raster data from ..\models\sfincs_charleston
+2026-01-20 08:21:00,963 - SFINCS_log_charleston - rasterdataset - WARNING - IO error while detecting zoom levels: Opener failed to determine file info: PermissionError(13, 'Permission denied')
+2026-01-20 08:21:00,965 - SFINCS_log_charleston - rasterdataset - WARNING - No CRS detected. Hence no zoom levels can be determined.
+2026-01-20 08:24:25,860 - SFINCS_log_charleston - rasterdataset - INFO - Reading topography_charleston_10m raster data from c:\Users\sanne\integrated-modelling-in-hydrology\2_flood_risk\data\topography_charleston_10m.tif
+2026-01-20 08:24:25,975 - SFINCS_log_charleston - rasterdataset - INFO - Reading gebco raster data from c:\Users\sanne\integrated-modelling-in-hydrology\2_flood_risk\data\gebco.tif
+2026-01-20 08:24:28,638 - SFINCS_log_charleston - sfincs - WARNING - Interpolate elevation at 118113 cells
+2026-01-20 08:26:23,848 - SFINCS_log_charleston - geodataframe - INFO - Reading  vector data from ..\model_domain\model_domain_charleston.geojson
+2026-01-20 08:26:24,018 - SFINCS_log_charleston - regulargrid - INFO - 1 gaps outside valid elevation range < 10.0 km2.
+2026-01-20 08:26:24,038 - SFINCS_log_charleston - sfincs - INFO - Derive region geometry based on active cells.
+2026-01-20 08:26:24,146 - SFINCS_log_charleston - model_api - WARNING - Replacing geom: region
+2026-01-20 08:30:50,233 - SFINCS_log_charleston - regulargrid - INFO - 0 gaps outside valid elevation range < 10 km2.
+2026-01-20 08:30:50,273 - SFINCS_log_charleston - regulargrid - INFO - 0 regions < 10 km2 dropped.
+2026-01-20 08:30:50,288 - SFINCS_log_charleston - sfincs - WARNING - No active cells found.
+2026-01-20 08:31:32,617 - SFINCS_log_charleston - regulargrid - INFO - 0 gaps outside valid elevation range < 10 km2.
+2026-01-20 08:31:32,669 - SFINCS_log_charleston - regulargrid - INFO - 0 regions < 10 km2 dropped.
+2026-01-20 08:31:32,689 - SFINCS_log_charleston - sfincs - WARNING - No active cells found.
+2026-01-20 08:31:37,698 - SFINCS_log_charleston - geodataframe - INFO - Reading  vector data from ..\model_domain\model_domain_charleston.geojson
+2026-01-20 08:31:37,823 - SFINCS_log_charleston - regulargrid - INFO - 1 gaps outside valid elevation range < 10.0 km2.
+2026-01-20 08:31:37,846 - SFINCS_log_charleston - sfincs - INFO - Derive region geometry based on active cells.
+2026-01-20 08:31:37,902 - SFINCS_log_charleston - model_api - WARNING - Replacing geom: region
+2026-01-20 08:31:43,862 - SFINCS_log_charleston - regulargrid - INFO - 0 gaps outside valid elevation range < 10 km2.
+2026-01-20 08:31:43,927 - SFINCS_log_charleston - regulargrid - INFO - 0 regions < 10 km2 dropped.
+2026-01-20 08:31:43,945 - SFINCS_log_charleston - sfincs - INFO - Derive region geometry based on active cells.
+2026-01-20 08:31:44,002 - SFINCS_log_charleston - model_api - WARNING - Replacing geom: region
+2026-01-20 09:15:23,738 - SFINCS_log_charleston - geodataframe - INFO - Reading  vector data from ..\model_domain\waterlevel_mask.geojson
+2026-01-20 10:37:33,138 - SFINCS_log_charleston - rasterdataset - INFO - Reading topography_charleston_10m raster data from c:\Users\sanne\integrated-modelling-in-hydrology\2_flood_risk\data\topography_charleston_10m.tif
+2026-01-20 10:37:33,199 - SFINCS_log_charleston - rasterdataset - INFO - Reading gebco raster data from c:\Users\sanne\integrated-modelling-in-hydrology\2_flood_risk\data\gebco.tif
+2026-01-20 10:37:33,217 - SFINCS_log_charleston - rasterdataset - INFO - Reading esa_worldcover raster data from c:\Users\sanne\integrated-modelling-in-hydrology\2_flood_risk\data\esa_worldcover.tif
+2026-01-20 10:37:33,252 - SFINCS_log_charleston - dataframe - INFO - Reading esa_worldcover_mapping csv data from c:\Users\sanne\integrated-modelling-in-hydrology\2_flood_risk\data\esa_worldcover_mapping.csv
+2026-01-20 10:37:49,087 - SFINCS_log_charleston - rasterdataset - INFO - Reading topography_charleston_10m raster data from c:\Users\sanne\integrated-modelling-in-hydrology\2_flood_risk\data\topography_charleston_10m.tif
+2026-01-20 10:37:49,125 - SFINCS_log_charleston - rasterdataset - INFO - Reading gebco raster data from c:\Users\sanne\integrated-modelling-in-hydrology\2_flood_risk\data\gebco.tif
+2026-01-20 10:37:49,142 - SFINCS_log_charleston - rasterdataset - INFO - Reading esa_worldcover raster data from c:\Users\sanne\integrated-modelling-in-hydrology\2_flood_risk\data\esa_worldcover.tif
+2026-01-20 10:37:49,159 - SFINCS_log_charleston - dataframe - INFO - Reading esa_worldcover_mapping csv data from c:\Users\sanne\integrated-modelling-in-hydrology\2_flood_risk\data\esa_worldcover_mapping.csv
+2026-01-20 10:37:49,401 - SFINCS_log_charleston - subgrid - INFO - Number of regular cells in a block : 2000
+2026-01-20 10:37:49,402 - SFINCS_log_charleston - subgrid - INFO - Number of blocks in n direction    : 1
+2026-01-20 10:37:49,402 - SFINCS_log_charleston - subgrid - INFO - Number of blocks in m direction    : 1
+2026-01-20 10:37:49,404 - SFINCS_log_charleston - subgrid - INFO - Grid size of flux grid            : dx=50.0, dy=50.0
+2026-01-20 10:37:49,404 - SFINCS_log_charleston - subgrid - INFO - Grid size of subgrid pixels       : dx=25.0, dy=25.0
+2026-01-20 10:37:49,405 - SFINCS_log_charleston - subgrid - INFO - block 1/1 -- col 0:1550 | row 0:1573
+2026-01-20 10:37:52,828 - SFINCS_log_charleston - subgrid - WARNING - Interpolate elevation data at 16867 subgrid pixels
+2026-01-20 10:38:56,856 - SFINCS_log_charleston - utils - INFO - Building 4 overviews with average
