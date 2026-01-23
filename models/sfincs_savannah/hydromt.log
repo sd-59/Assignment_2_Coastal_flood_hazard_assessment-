@@ -1,0 +1,6 @@
+2026-01-23 12:00:54,021 - SFINCS_log_savannah - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.2.1).
+2026-01-23 12:01:11,927 - SFINCS_log_savannah - geodataframe - INFO - Reading  vector data from ..\model_domain\model_domain_savannah.geojson
+2026-01-23 12:01:37,919 - SFINCS_log_savannah - geodataframe - INFO - Reading  vector data from ..\model_domain\model_domain_savannah.geojson
+2026-01-23 12:01:43,853 - SFINCS_log_savannah - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2026-01-23 12:01:44,697 - SFINCS_log_savannah - sfincs - INFO - Derive region geometry based on active cells.
+2026-01-23 12:01:46,414 - SFINCS_log_savannah - model_api - WARNING - Replacing geom: region
