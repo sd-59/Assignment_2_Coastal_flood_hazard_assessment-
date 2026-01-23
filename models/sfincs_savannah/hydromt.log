@@ -19,3 +19,17 @@
 2026-01-23 12:14:55,422 - SFINCS_log_savannah - model_api - WARNING - Replacing geom: region
 2026-01-23 12:15:29,019 - SFINCS_log_savannah - geodataframe - INFO - Reading  vector data from ..\model_domain\Savannah_waterlevel_msk_v3.geojson
 2026-01-23 12:25:41,731 - SFINCS_log_savannah - geodataframe - INFO - Reading  vector data from ..\model_domain\Savannah_waterlevel_msk_v3.geojson
+2026-01-23 15:56:09,018 - SFINCS_log_savannah - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.2.1).
+2026-01-23 15:57:35,264 - SFINCS_log_savannah - geodataframe - INFO - Reading  vector data from ..\model_domain\model_domain_savannah.geojson
+2026-01-23 16:06:17,269 - SFINCS_log_savannah - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.2.1).
+2026-01-23 16:06:31,199 - SFINCS_log_savannah - geodataframe - INFO - Reading  vector data from ..\model_domain\model_domain_savannah.geojson
+2026-01-23 16:06:59,021 - SFINCS_log_savannah - rasterdataset - INFO - Reading topography_savannah_10m raster data from c:\Users\zarav\.intergrated modelling in hydrology\Assignment_2_Coastal_flood_hazard_assessment-\data\topography_Savannah_10m.tif
+2026-01-23 16:06:59,156 - SFINCS_log_savannah - rasterdataset - WARNING - No CRS detected. Hence no zoom levels can be determined.
+2026-01-23 16:06:59,257 - SFINCS_log_savannah - io - WARNING - nodata value missing for c:\Users\zarav\.intergrated modelling in hydrology\Assignment_2_Coastal_flood_hazard_assessment-\data\topography_Savannah_10m.tif
+2026-01-23 16:06:59,262 - SFINCS_log_savannah - sfincs - WARNING - No data in domain for topography_savannah_10m, skipped.
+2026-01-23 16:06:59,272 - SFINCS_log_savannah - rasterdataset - INFO - Reading gebco raster data from c:\Users\zarav\.intergrated modelling in hydrology\Assignment_2_Coastal_flood_hazard_assessment-\data\gebco.tif
+2026-01-23 16:06:59,485 - SFINCS_log_savannah - sfincs - WARNING - Interpolate elevation at 430411 cells
+2026-01-23 16:08:11,747 - SFINCS_log_savannah - geodataframe - INFO - Reading  vector data from ..\model_domain\model_domain_savannah.geojson
+2026-01-23 16:08:11,847 - SFINCS_log_savannah - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2026-01-23 16:08:11,856 - SFINCS_log_savannah - sfincs - INFO - Derive region geometry based on active cells.
+2026-01-23 16:08:11,879 - SFINCS_log_savannah - model_api - WARNING - Replacing geom: region
