@@ -4,3 +4,17 @@
 2026-01-23 12:01:43,853 - SFINCS_log_savannah - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
 2026-01-23 12:01:44,697 - SFINCS_log_savannah - sfincs - INFO - Derive region geometry based on active cells.
 2026-01-23 12:01:46,414 - SFINCS_log_savannah - model_api - WARNING - Replacing geom: region
+2026-01-23 12:05:48,033 - SFINCS_log_savannah - geodataframe - INFO - Reading  vector data from ..\model_domain\waterlevel_mask_savannah.geojson
+2026-01-23 12:05:52,367 - SFINCS_log_savannah - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2026-01-23 12:05:53,258 - SFINCS_log_savannah - sfincs - INFO - Derive region geometry based on active cells.
+2026-01-23 12:05:54,912 - SFINCS_log_savannah - model_api - WARNING - Replacing geom: region
+2026-01-23 12:07:04,752 - SFINCS_log_savannah - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2026-01-23 12:07:05,274 - SFINCS_log_savannah - sfincs - INFO - Derive region geometry based on active cells.
+2026-01-23 12:07:07,110 - SFINCS_log_savannah - model_api - WARNING - Replacing geom: region
+2026-01-23 12:08:14,937 - SFINCS_log_savannah - geodataframe - INFO - Reading  vector data from ..\model_domain\waterlevel_mask_savannah.geojson
+2026-01-23 12:11:17,647 - SFINCS_log_savannah - geodataframe - INFO - Reading  vector data from ..\model_domain\Savannah_waterlevel_msk_v3.geojson
+2026-01-23 12:14:48,485 - SFINCS_log_savannah - geodataframe - INFO - Reading  vector data from ..\model_domain\model_domain_savannah.geojson
+2026-01-23 12:14:53,073 - SFINCS_log_savannah - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2026-01-23 12:14:53,702 - SFINCS_log_savannah - sfincs - INFO - Derive region geometry based on active cells.
+2026-01-23 12:14:55,422 - SFINCS_log_savannah - model_api - WARNING - Replacing geom: region
+2026-01-23 12:15:29,019 - SFINCS_log_savannah - geodataframe - INFO - Reading  vector data from ..\model_domain\Savannah_waterlevel_msk_v3.geojson
