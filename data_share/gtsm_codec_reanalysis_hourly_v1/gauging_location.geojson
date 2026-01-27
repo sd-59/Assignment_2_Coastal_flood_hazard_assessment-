@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "gauging_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 8670870 }, "geometry": { "type": "Point", "coordinates": [ -80.904599504950497, 32.035 ] } }, 
+{ "type": "Feature", "properties": { "id": 8720218 }, "geometry": { "type": "Point", "coordinates": [ -81.428333333333333333, 30.3983 ] } }
+]
+}

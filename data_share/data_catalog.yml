@@ -1,0 +1,115 @@
+MRLC_landcover:
+  data_type: RasterDataset            
+  path: MRLC_landcover.tiff
+  driver: raster
+  meta:
+    category: landuse
+    source_url: https://www.mrlc.gov/viewer/
+  crs: 4326
+MRLC_landcover_mapping:
+  data_type: DataFrame            
+  path: MRLC_landcover_mapping.csv
+  driver: csv
+  driver_kwargs:
+    index_col: 0
+  meta:
+    category: landuse
+    notes: Manning Roughness values for each MRLC landcover class
+topography_savannah_10m: 
+  data_type: RasterDataset
+  path: topography_Savannah_10m.tif
+  driver: raster
+  meta:     
+    category: topography
+topography_Savannah_CoNED_G:
+  data_type: RasterDataset
+  path: topography_Savannah_CoNED_G.tiff
+  driver: raster
+  meta:     
+    category: topography
+topography_Savannah_CoNED_SC:
+  data_type: RasterDataset
+  path: topography_Savannah_CoNED_SC.tiff
+  driver: raster
+  meta:     
+    category: topography
+osm_landareas:
+  data_type: GeoDataFrame
+  path: osm_landareas.gpkg
+  driver: vector
+  filesystem: local
+  meta:
+    category: geography
+    notes: OpenStreetMap land polygons, last updated 2026-01-22T04:10
+    source_author: OpenStreetMap
+    source_license: ODbL
+    source_url: https://osmdata.openstreetmap.de/data/land-polygons.html
+    source_version: 1.0
+  crs: 4326
+gebco:
+  data_type: RasterDataset
+  path: gebco.tif
+  driver: raster
+  filesystem: local
+  meta:
+    category: topography
+    source_url: https://download.gebco.net/
+    source_version: 2025
+    unit: m+MSL
+  crs: 4326  
+gtsm_locations:
+  data_type: GeoDataFrame
+  path: gtsm_codec_reanalysis_hourly_v1/gauging_location.geojson
+  driver: vector
+  meta:
+    category: ocean
+    source_license: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
+    source_url: https://doi.org/10.24381/cds.8c59054f
+    source_version: v1
+gtsm_timeseries:
+  data_type: DataFrame
+  path: gtsm_codec_reanalysis_hourly_v1/validationtimeseries.csv
+  driver: csv
+  driver_kwargs:
+    parse_dates: true
+    index_col: 0
+  meta:
+    category: ocean
+    source_license: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
+    source_url: https://doi.org/10.24381/cds.8c59054f
+    source_version: v1
+gtsm_locations_2:
+  data_type: GeoDataFrame
+  path: gtsm_codec_reanalysis_hourly_v1/gauging_location_2.geojson
+  driver: vector
+  meta:
+    category: ocean
+    source_license: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
+    source_url: https://doi.org/10.24381/cds.8c59054f
+    source_version: v1    
+gtsm_timeseries_2:
+  data_type: DataFrame
+  path: gtsm_codec_reanalysis_hourly_v1/validationtimeseries_2.csv
+  driver: csv
+  driver_kwargs:
+    parse_dates: true
+    index_col: 0
+  meta:
+    category: ocean
+    source_license: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
+    source_url: https://doi.org/10.24381/cds.8c59054f
+    source_version: v1  
+gtsm_timeseries_I2:
+  data_type: DataFrame
+  path: gtsm_codec_reanalysis_hourly_v1/timeseries_Irma_2.csv
+  driver: csv
+  driver_kwargs:
+    parse_dates: true
+    index_col: 0
+  meta:
+    category: ocean
+    source_license: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
+    source_url: https://doi.org/10.24381/cds.8c59054f
+    source_version: v1
+
+
